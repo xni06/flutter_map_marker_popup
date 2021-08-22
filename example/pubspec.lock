@@ -70,11 +70,13 @@ packages:
     source: sdk
     version: "0.0.0"
   flutter_map:
-    dependency: "direct main"
+    dependency: transitive
     description:
-      name: flutter_map
-      url: "https://pub.dartlang.org"
-    source: hosted
+      path: "."
+      ref: "feature/add-marker-data-property"
+      resolved-ref: ee7c77e099269a2c0cba3d4405468e231a4f4ceb
+      url: "https://github.com/xni06/flutter_map.git"
+    source: git
     version: "0.13.1"
   flutter_map_marker_popup:
     dependency: "direct main"

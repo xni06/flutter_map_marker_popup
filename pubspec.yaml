@@ -3,6 +3,8 @@ description: A plugin for flutter_map to show a customisable popup Widget when a
 version: 1.0.0+2
 homepage: https://github.com/rorystephenson/flutter_map_marker_popup
 
+publish_to: none
+
 environment:
   sdk: ">=2.12.0 <3.0.0"
 
@@ -10,7 +12,11 @@ dependencies:
   flutter:
     sdk: flutter
 
-  flutter_map: ">=0.13.1 <1.0.0"
+  flutter_map:
+    git:
+      url: https://github.com/xni06/flutter_map.git
+      ref: feature/add-marker-data-property
+
   animated_stack_widget: ^0.0.2+1
 
 dev_dependencies:
